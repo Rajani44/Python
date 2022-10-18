@@ -17,14 +17,14 @@ while True:
            count+=1
        r=input('do you want to continue the code:')
        if r=="exit":
-           # 1.append([input(operator)])
            print(count)
            break
        else:
            continue
 
           
-   OUTPUT:
+ OUTPUT:
+       
 enter first number: 4
 enter second number: 4
 enter which operation you want:*
