@@ -1,27 +1,31 @@
 import pandas as pd
-c=pd.read_excel("D:\\raj.xlsx")
+c=pd.read_excel("D:\\emp.xlsx")
 df=pd.DataFrame(c)
 print(df)
 print()
 print("after sorting a spread sheet:")
 print()
-print(df.sort_values("years of experience",ascending=False))
+print(df.sort_values("Years of experience",ascending=False))
+
 
 
 OUTPUT:
-    Name  years of experience  Unnamed: 2 subjects
-0   Raji                    2         NaN    maths
-1  Bujji                    3         NaN     DBMS
-2   Siva                    1         NaN       DS
-3    Sai                    0         NaN     HTML
+    
+faculty Name  Years of experience Subjects
+0         Raji                    4    maths
+1        Bujji                    2     DBMS
+2         Siva                    1       DS
+3          Sai                    3     HTML
 
 after sorting a spread sheet:
 
-    Name  years of experience  Unnamed: 2 subjects
-1  Bujji                    3         NaN     DBMS
-0   Raji                    2         NaN    maths
-2   Siva                    1         NaN       DS
-3    Sai                    0         NaN     HTML
+  faculty Name  Years of experience Subjects
+0         Raji                    4    maths
+3          Sai                    3     HTML
+1        Bujji                    2     DBMS
+2         Siva                    1       DS
+    
+         
 
 
   
