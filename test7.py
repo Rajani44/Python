@@ -105,7 +105,7 @@ class lecture:
 k=lecture()
 n,p=input("name and duration of lecture:")
 m=input("max num:",)
-a=list(map(str,input("listofprofessorsgivingthislecture:").split()))
+a=list(map(str,input("list of professors giving this lecture:").split()))
 k.data(n,m,p,a)
 k.display()
 
@@ -115,11 +115,11 @@ k.display()
 
 name and duration of lecture:maths 3months
 max num: 56
-listofprofessorsgivingthislecture: kesav madhav
+listofprofessorsgivingthislecture: sai sam
 maths
 3months
 adding professor to the list of professors giving this lecture:mani sreekanth
-['kesav','madhav','mani','sreekanth']
+['sai','sam','ram','siva']
 
 
 
