@@ -89,11 +89,11 @@ enter subject:maths
 ##lectureclass##
 
 class lecture:
-    def data(self,name,max number of students,duration,list of professors giving this lecture):
+    def data(self,name,maxnumberofstudents,duration,listofprofessorsgivingthislecture):
        self.n=name
-       self.m=max number of students
+       self.m=maxnumberofstudents
        self.d=duration
-       self.l=list of professors giving this lecture
+       self.l=listofprofessorsgivingthislecture
     def display(self):
         print(self.n)
         print(self.d)
@@ -105,7 +105,7 @@ class lecture:
 k=lecture()
 n,p=input("name and duration of lecture:")
 m=input("max num:",)
-a=list(map(str,input("list of professors giving this lecture:").split()))
+a=list(map(str,input("listofprofessorsgivingthislecture:").split()))
 k.data(n,m,p,a)
 k.display()
 
